@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://10.100.1.5/eportal/InterFace.do?method=login'  # 需要根据自己的情况修改的地方
+url = 'xxxx'  # 需要根据自己的情况修改的地方
 data = { # 本部分对应抓包数据中 表单数据(Params) 的内容，如该项内容为空，则不需要编辑对应键值。
     "userId": "xxxx", 
     "password": "xxxx", 
