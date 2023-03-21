@@ -29,3 +29,4 @@ if(response == 200):
     print("校园网登录成功")
 else :
     print("校园网登陆失败")
+input:("按回车键退出")

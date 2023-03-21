@@ -27,3 +27,6 @@ header = {
 response = requests.post(url, data, headers=header).status_code
 if(response == 200):
     print("校园网登录成功")
+else :
+    print("校园网登陆失败，请检查相关参数")
+input:("按回车键退出")
