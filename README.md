@@ -1,7 +1,4 @@
 # CampusNetworkConnection 校园网自动登录脚本
-## 作者
-[昕某人](https://www.zhihu.com/people/xinmouren) 代码原作者
-Aaron_ZSAM 只添加了一句else代码，版权归[昕某人](https://www.zhihu.com/people/xinmouren) 所有
 ## 简要说明
 本脚本利用python语言，利用前期的抓包数据，通过向校园网服务器发送http请求，模拟登录过程，从而可实现自动登录校园网连接服务。
 
