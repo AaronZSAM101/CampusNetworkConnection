@@ -14,17 +14,17 @@ Requests包（安装方法：管理员模式打开cmd/powershell，输入 pip in
 ## 使用方法
 **P.S.: 首次使用请先进行相关参数修改，再进行软件的打包**
 
-1.先确保你的校园网处于下线状态，然后使用抓包工具，在登陆时进行抓包。
+1. 先确保你的校园网处于下线状态，然后使用抓包工具，在登陆时进行抓包。
 ![](/image/Disconnect.png)
 >这里使用的是Microsoft Edge，方法：在登陆前按`F12`键（亦或是在网页中右键，选择检查），选择`网络`，勾选`保留日志`，接着点击你的校园网登录按钮。
 >
 >![](/image/Edge.png)
 
-2.抓包完成后，日志文件中会出现 `InterFace.do?method=login`的日志文件，我们需要在该文件中获取我们的登录地址以及其他相关信息。
+2. 抓包完成后，日志文件中会出现 `InterFace.do?method=login`的日志文件，我们需要在该文件中获取我们的登录地址以及其他相关信息。
 
-3.打开`CampusNetworkConnection_Templete.py`，参照文件中的注释内容，将键对应的参数**复制粘贴**到对应的文本之中。
+3. 打开`CampusNetworkConnection_Templete.py`，参照文件中的注释内容，将键对应的参数**复制粘贴**到对应的文本之中。
 完整的一份代码可以参照`CampusNetworkConnection_Templete.py`
 
-4.可以将软件打包成exe，具体方法自行百度，也可以直接使用cmd/powershell进行运行（python xxxx.py）
+4. 可以将软件打包成exe，具体方法自行百度，也可以直接使用cmd/powershell进行运行（python xxxx.py）
 
-5.打包成exe后甚至可以加入开机自启动项，具体方法自行百度。
+5. 打包成exe后甚至可以加入开机自启动项，具体方法自行百度。
