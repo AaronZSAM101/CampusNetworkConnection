@@ -17,7 +17,7 @@ header = { # 本部分对应抓包数据中 请求标头(Headers) 的内容，�
     "Content-Length": "xxxx",
     "User-Agent": "xxxx",
     "Content-Type": "xxxx",
-    "Accept": "xxxx,
+    "Accept": "xxxx",
     "Origin": "xxxx",
     "Referer": "xxxx",
     "Accept-Encoding": "xxxx",
